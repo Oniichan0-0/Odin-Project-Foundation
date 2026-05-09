@@ -28,8 +28,8 @@ A 5-round Rock, Paper, Scissors game played against the computer in the browser.
 
 A browser drawing pad with black and random RGB colour modes. Grid size toggles between 16x16 and 32x32 via a draggable rotary controller.
 
-![Etch-a-Sketch preview](<img width="1900" height="1025" alt="Etch A Sketch" src="https://github.com/user-attachments/assets/95c5facf-4ccb-427f-aa9a-8bf2fa4f41f4" />
-)
+![Etch-a-Sketch preview]<img width="1900" height="1025" alt="Etch A Sketch" src="https://github.com/user-attachments/assets/95c5facf-4ccb-427f-aa9a-8bf2fa4f41f4" />
+
 
 ---
 
