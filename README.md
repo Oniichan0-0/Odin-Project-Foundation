@@ -10,7 +10,8 @@ My submissions for [The Odin Project](https://www.theodinproject.com/) curriculu
 
 A browser-based calculator built with vanilla JavaScript, HTML, and CSS.
 
-![Calculator preview]("C:\Users\ashwi\Pictures\Screenshots\Calculator.png")
+![Calculator preview](<img width="1912" height="1035" alt="Calculator" src="https://github.com/user-attachments/assets/61168b91-fd72-4981-ad0e-3e098dbb7138" />
+)
 
 ---
 
@@ -18,7 +19,8 @@ A browser-based calculator built with vanilla JavaScript, HTML, and CSS.
 
 A 5-round Rock, Paper, Scissors game played against the computer in the browser.
 
-![Rock Paper Scissors preview]("C:\Users\ashwi\Pictures\Screenshots\rock paper scissor.png"g)
+![Rock Paper Scissors preview](<img width="545" height="225" alt="rock paper scissor" src="https://github.com/user-attachments/assets/18b05be4-56d7-4425-840d-b4ee9e6269ea" />
+)
 
 ---
 
@@ -26,7 +28,8 @@ A 5-round Rock, Paper, Scissors game played against the computer in the browser.
 
 A browser drawing pad with black and random RGB colour modes. Grid size toggles between 16x16 and 32x32 via a draggable rotary controller.
 
-![Etch-a-Sketch preview]("C:\Users\ashwi\Pictures\Screenshots\Etch A Sketch.png")
+![Etch-a-Sketch preview](<img width="1900" height="1025" alt="Etch A Sketch" src="https://github.com/user-attachments/assets/95c5facf-4ccb-427f-aa9a-8bf2fa4f41f4" />
+)
 
 ---
 
