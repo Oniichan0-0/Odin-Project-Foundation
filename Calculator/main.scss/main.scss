@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+:root {
+	--primary-color: #0800c8;
+	--secondary-color: #ffffff;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100dvh;
+	width: 100dvw;
+	color: var(--secondary-color);
+	background-color: #0800c8;
+	opacity: 1;
+	background: radial-gradient(circle, transparent 20%, #0800c8 20%, #0800c8 80%, transparent 80%, transparent),
+		radial-gradient(circle, transparent 20%, #0800c8 20%, #0800c8 80%, transparent 80%, transparent) 10px 10px,
+		linear-gradient(#ffffff 0.8px, transparent 0.8px) 0 -0.4px,
+		linear-gradient(90deg, #ffffff 0.8px, #0800c8 0.8px) -0.4px 0;
+	background-size: 20px 20px, 20px 20px, 10px 10px, 10px 10px;
+	font-family: 'Nova Mono', monospace;
+}
+.calc-body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 400px;
+	height: 700px;
+	padding: 20px;
+	border: 2px solid var(--secondary-color);
+	background-color: #0800c8;
+	.calc-display {
+		display: flex;
+		flex-direction: column;
+		align-items: end;
+		justify-content: end;
+		width: 350px;
+		height: 35%;
+		padding: 10px;
+		border-bottom: 2px solid var(--secondary-color);
+		overflow: hidden;
+		.main-line {
+			font-size: 60px;
+		}
+	}
+	.calc-keyboard {
+		display: grid;
+		width: 350px;
+		height: 65%;
+		margin-top: 20px;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(5, 1fr);
+		gap: 10px;
+		button {
+			color: var(--secondary-color);
+			font-family: 'Nova Mono', monospace;
+			font-size: 30px;
+			border: 2px solid var(--secondary-color);
+			background: none;
+			cursor: pointer;
+			transition: background 0.1s;
+		}
+		button:active {
+			background: orange;
+		}
+		.verticalBtn {
+			grid-row: 4/6;
+			grid-column: 4/5;
+		}
+		.horizontalBtn {
+			grid-row: 5/6;
+			grid-column: 1/3;
+		}
+	}
+}
